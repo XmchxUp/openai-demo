@@ -21,14 +21,15 @@ def askOpenAi(prompt="hello word", type="text"):
     return response["data"]
   elif type == "text":
     response = openai.Completion.create(
-        model="text-davinci-001", 
+        model="text-davinci-003", 
         prompt=prompt,
-        temperature=0,
-        max_tokens=100,
+        temperature=0.5,
+        max_tokens=2048,
         top_p=1,
         frequency_penalty= 0,
         presence_penalty=0,
-        stop= ["input:"])
+        stop=None
+    )
     log(response)
     return response['choices'][0]['text']
   else:

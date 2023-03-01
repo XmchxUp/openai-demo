@@ -1,0 +1,6 @@
+Ask me anything...
+Type: (text or image) text
+Question: ##### Translate this function  from Python into Haskell### Python    def predict_proba(X: Iterable[str]): return np.array([predict_one_probas(tweet) for tweet in X]) ### Haskell
+Answer:
+   predictProba :: Iterable[String] -> Array[predictOneProbas]  predictProba x = array (map predictOneProbas x)    
+-------------------

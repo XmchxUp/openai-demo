@@ -1,0 +1,8 @@
+-------------------
+Ask me anything...
+Type: (text or image) text
+Question: 用js补全下面代码 const add = (a, b) => {}
+Answer:
+
+
+const add = (a, b) => { return a + b; }
