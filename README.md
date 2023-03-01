@@ -15,4 +15,6 @@ pip install --upgrade opanai
 create file `.keys` and add your open api key
 
 ### Step3 Run
+```bash
 python main.py
+```
