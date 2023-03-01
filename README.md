@@ -7,9 +7,12 @@
 
 ## Start
 
-### Requirement
+### Step1 Requirement
 ```bash
 pip install --upgrade opanai
 ```
-### Run
+### Step2 Config
+create file `.keys` and add your open api key
+
+### Step3 Run
 python main.py
